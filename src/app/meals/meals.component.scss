@@ -1,0 +1,49 @@
+
+
+.gradient-text {
+  background: linear-gradient(90deg, #F19624, #CD1E30);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding: 15px;
+
+  h1{
+    font-family: "Pacifico";
+    font-size: 36px;
+    font-weight: 700;
+  }
+}
+
+a{
+  border: 1px solid #808080;
+  background-color: #F4F2EE;
+  border-radius: 30px;
+  padding: 7px 16px;
+  margin: 10px;
+  box-sizing: border-box;
+  font-family: "Comic Neue", serif;
+  font-weight: 700;
+  transition: all 0.3s;
+  color: #808080;
+  text-decoration: none;
+}
+
+.notSelected{
+  &:hover{
+    box-shadow: 0px 8px 8px rgb(212, 212, 212);
+    background-color: #fff;
+    color: #292929;
+  }
+}
+.selected{
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+
+  &:hover{
+    background-color: #000;
+    box-shadow: none;
+    color: #fff;
+  }
+}
+

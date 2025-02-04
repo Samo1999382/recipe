@@ -1,0 +1,27 @@
+.main{
+  width: 100vw;
+  background-color: #fff;
+  border-radius: 10px 10px  0 0;
+  position: fixed;
+}
+
+.logo{
+  width: 50px;
+
+  img{
+    width: 100%;
+  }
+}
+
+span{
+  font-size: 28px;
+  font-family: "Comic Neue", serif;
+  font-weight: 1000;
+}
+
+p{
+  margin: 15px 15px 0;
+  color: rgb(128, 128, 128);
+  font-family: "Comic Neue", serif;
+  font-weight: 600;
+}
